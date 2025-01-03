@@ -1,0 +1,124 @@
+.Registration-page {
+    width: 90%;
+    min-height: 90vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Registration-form {
+    padding: 30px;
+    box-shadow: 0px 0px 5px 1px hsl(40, 6%, 90%);
+    width: fit-content;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(86, 82, 83);
+  }
+  
+  .Registration-form input {
+    margin-bottom: 10px;
+    border: 1px solid blue;
+    width: 300px;
+    padding: 8px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .Registration-form input:focus {
+    outline: none;
+    border-color: #2980b9;
+    box-shadow: 1px 0px 5px rgba(41, 128, 185, 0.5);
+  }
+  
+  .Registration-page label {
+    margin-bottom: 9px;
+  
+  }
+
+  .Registration-page .club-select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 300px;
+  }
+  
+  .eye {
+    display: flex;
+    margin-left: auto 20px;
+    margin-bottom: -20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .Registration-form button {
+    width: 320px;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  .Registration-page {
+  position: relative; 
+}
+
+.message {
+  color:rgb(8, 202, 8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.message.show {
+  opacity: 1; 
+}
+  .Registration-form button:hover {
+    background-color: rgb(139, 150, 140);
+  }
+  
+  .Registration-form button:active {
+    background-color: rgb(157, 50, 31);
+    color: white;
+  }
+    @media (max-width: 768px) {
+    .Registration-form input,
+    .Registration-page label,
+    .Registration-form button {
+      width: 100%;
+    }
+  
+    .Registration-page .club-select {
+      width: 100%;
+    }
+  
+    .eye {
+      margin-top: -25px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Registration-form {
+      padding: 20px;
+    }
+  
+    .Registration-form input,
+    .Registration-page label,
+    .Registration-form button {
+      font-size: 16px;
+    }
+  }  

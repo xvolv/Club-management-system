@@ -1,11 +1,6 @@
 package com.club.real.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -23,13 +18,13 @@ public class User {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
-  @Column(name = "full_name")
+  @Column(name = "full_name", nullable = false)
   private String fullName;
 
-  @Column(name = "email", unique = true)
+  @Column(name = "email", nullable = false, unique = true)
   private String email;
 
-  @Column(name = "password")
+  @Column(name = "password", nullable = false)
   private String password;
 
   @Column(name = "department")
@@ -37,4 +32,7 @@ public class User {
 
   @Column(name = "batch")
   private String batch;
+
+  @Column(name = "user_name", nullable = false)
+  private String userName;
 }

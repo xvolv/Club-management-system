@@ -1,9 +1,9 @@
 package com.club.real.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.AllArgsConstructor;
 
 @Getter
 @Setter
@@ -16,4 +16,5 @@ public class UserDto {
   private String password; // Password will be received here from the client
   private String department;
   private String batch;
+  private String userName;
 }

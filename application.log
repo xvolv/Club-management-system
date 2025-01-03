@@ -1,0 +1,45 @@
+2025-01-04T00:21:05.795+03:00  INFO 23584 --- [real] [main] com.club.real.RealApplication            : Starting RealApplication using Java 22.0.1 with PID 23584 (D:\fullstack\backend\real\target\classes started by Nothing in D:\fullstack)
+2025-01-04T00:21:05.834+03:00  INFO 23584 --- [real] [main] com.club.real.RealApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-01-04T00:21:08.216+03:00  INFO 23584 --- [real] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-04T00:21:08.479+03:00  INFO 23584 --- [real] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210 ms. Found 7 JPA repository interfaces.
+2025-01-04T00:21:09.962+03:00  INFO 23584 --- [real] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-04T00:21:09.983+03:00  INFO 23584 --- [real] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-04T00:21:09.985+03:00  INFO 23584 --- [real] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-04T00:21:10.129+03:00  INFO 23584 --- [real] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-04T00:21:10.131+03:00  INFO 23584 --- [real] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4171 ms
+2025-01-04T00:21:10.516+03:00  INFO 23584 --- [real] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-04T00:21:10.654+03:00  INFO 23584 --- [real] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-04T00:21:10.737+03:00  INFO 23584 --- [real] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-04T00:21:11.349+03:00  INFO 23584 --- [real] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-04T00:21:11.431+03:00  INFO 23584 --- [real] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-04T00:21:11.915+03:00  INFO 23584 --- [real] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5408d4b3
+2025-01-04T00:21:11.920+03:00  INFO 23584 --- [real] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-04T00:21:12.059+03:00  WARN 23584 --- [real] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-04T00:21:12.123+03:00  INFO 23584 --- [real] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-04T00:21:14.744+03:00  INFO 23584 --- [real] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-04T00:21:15.064+03:00  INFO 23584 --- [real] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-04T00:21:16.937+03:00  WARN 23584 --- [real] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-04T00:21:17.069+03:00  WARN 23584 --- [real] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ffefff72-31d3-4c65-8f58-46550ffd6c03
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-01-04T00:21:17.143+03:00  INFO 23584 --- [real] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-01-04T00:21:18.660+03:00  INFO 23584 --- [real] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-04T00:21:18.689+03:00  INFO 23584 --- [real] [main] com.club.real.RealApplication            : Started RealApplication in 13.936 seconds (process running for 14.683)
+2025-01-04T00:21:20.699+03:00  INFO 23584 --- [real] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-04T00:21:20.700+03:00  INFO 23584 --- [real] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-04T00:21:20.703+03:00  INFO 23584 --- [real] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-01-04T01:17:28.475+03:00  INFO 23584 --- [real] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-04T01:17:28.535+03:00  INFO 23584 --- [real] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-04T01:17:28.547+03:00  INFO 23584 --- [real] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-04T01:17:28.561+03:00  INFO 23584 --- [real] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-04T01:17:28.610+03:00  INFO 23584 --- [real] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
